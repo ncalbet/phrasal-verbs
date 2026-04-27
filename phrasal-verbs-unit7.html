@@ -129,7 +129,6 @@ body{color:var(--text);font-family:'DM Sans',sans-serif;font-size:15px}
 .i-chip .ic-d{color:var(--muted);font-size:.73rem;margin-top:.08rem}
 .intro-row{display:grid;grid-template-columns:1fr 1fr;gap:.5rem}
 .intro-block{background:var(--surface);border:1px solid var(--border);border-radius:var(--r);padding:.55rem .9rem;display:flex;align-items:center;gap:.65rem}
-.ib-icon{font-size:1.4rem;flex-shrink:0}
 .ib-text{font-size:.86rem;color:var(--muted);line-height:1.45}
 .ib-text b{color:var(--text)}
 
@@ -198,6 +197,10 @@ body{color:var(--text);font-family:'DM Sans',sans-serif;font-size:15px}
 .qr-score{font-size:.88rem;color:var(--muted)}
 .qr-score b{color:var(--text);font-size:1rem}
 .btn-full-retry{background:linear-gradient(135deg,var(--blue),#1d4ed8);color:#fff;border:none;border-radius:6px;padding:.6rem 1.4rem;font-family:'Bebas Neue',sans-serif;font-size:.95rem;letter-spacing:.07em;cursor:pointer;margin-top:.35rem}
+
+/* ── SEPARABLE / INSEPARABLE TYPE BADGE ── */
+.type-sep{display:inline-block;background:rgba(37,99,235,.1);color:var(--blue);border:1px solid rgba(37,99,235,.3);border-radius:4px;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;padding:.1rem .42rem}
+.type-insep{display:inline-block;background:rgba(180,83,9,.1);color:var(--gold);border:1px solid rgba(180,83,9,.3);border-radius:4px;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;padding:.1rem .42rem}
 </style>
 </head>
 <body>
@@ -206,30 +209,30 @@ body{color:var(--text);font-family:'DM Sans',sans-serif;font-size:15px}
 <!-- ══ SLIDE 1 — INTRO ══ -->
 <div class="slide active" data-slide="1">
   <div class="topbar">
-    <div class="tb-logo">💻 Unit 7 — Technology</div>
+    <div class="tb-logo">Unit 7 — Technology</div>
     <div class="tb-center">Phrasal Verbs · 4t ESO</div>
     <div class="tb-right">
       <div class="tb-slide-name">Introduction</div>
-      <div class="tb-counter"><span>1</span> / 7</div>
+      <div class="tb-counter"><span>1</span> / 8</div>
     </div>
   </div>
   <div class="slide-content">
     <div class="intro-body">
-      <div class="intro-badge">💻 Unit 7 — Technology</div>
+      <div class="intro-badge">Unit 7 — Technology · 4t ESO</div>
       <div class="intro-title">
         <span class="l1">PHRASAL</span>
         <span class="l2">VERBS</span>
       </div>
       <div class="intro-desc">A <b>phrasal verb</b> is a verb combined with one or two small words — a <b>preposition</b> or an <b>adverb</b> — that creates a completely new meaning. They are everywhere in everyday English.</div>
       <div class="intro-chips">
-        <div class="i-chip"><div class="ic-n">💻 Tech</div><div class="ic-d">log off · sign out · switch on/off · print out</div></div>
-        <div class="i-chip"><div class="ic-n">🤝 Social</div><div class="ic-d">hang out · meet up with · go away · chill out</div></div>
-        <div class="i-chip"><div class="ic-n">💪 Lifestyle</div><div class="ic-d">take up · work out</div></div>
-        <div class="i-chip"><div class="ic-n">7 slides + quiz</div><div class="ic-d">Theory, examples & practice</div></div>
+        <div class="i-chip"><div class="ic-n">Tech</div><div class="ic-d">log off · sign out · switch on/off · print out</div></div>
+        <div class="i-chip"><div class="ic-n">Social</div><div class="ic-d">hang out · meet up with · go away · chill out</div></div>
+        <div class="i-chip"><div class="ic-n">Lifestyle</div><div class="ic-d">take up · work out</div></div>
+        <div class="i-chip"><div class="ic-n">8 slides + quiz</div><div class="ic-d">Theory, examples &amp; practice</div></div>
       </div>
       <div class="intro-row">
-        <div class="intro-block"><span class="ib-icon">🔤</span><div class="ib-text"><b>Verb + particle</b> = new meaning. <em>"Turn off"</em> ≠ <em>"turn"</em> + <em>"off"</em> separately.</div></div>
-        <div class="intro-block"><span class="ib-icon">⚠️</span><div class="ib-text">Some are <b>separable</b> (object goes in the middle). Some are <b>inseparable</b> (always together).</div></div>
+        <div class="intro-block"><div class="ib-text"><b>Verb + particle</b> = new meaning. <em>"Turn off"</em> does not mean <em>"turn"</em> + <em>"off"</em> separately.</div></div>
+        <div class="intro-block"><div class="ib-text">Some are <b>separable</b> (object can go in the middle). Some are <b>inseparable</b> (always kept together).</div></div>
       </div>
     </div>
   </div>
@@ -240,64 +243,57 @@ body{color:var(--text);font-family:'DM Sans',sans-serif;font-size:15px}
   </div>
 </div>
 
-<!-- ══ SLIDE 2 — HOW THEY WORK ══ -->
+<!-- ══ SLIDE 2 — MEANING ══ -->
 <div class="slide" data-slide="2">
   <div class="topbar">
-    <div class="tb-logo">💻 Unit 7 — Technology</div>
+    <div class="tb-logo">Unit 7 — Technology</div>
     <div class="tb-center">Phrasal Verbs · 4t ESO</div>
     <div class="tb-right">
-      <div class="tb-slide-name">How They Work</div>
-      <div class="tb-counter"><span>2</span> / 7</div>
+      <div class="tb-slide-name">What Are They?</div>
+      <div class="tb-counter"><span>2</span> / 8</div>
     </div>
   </div>
   <div class="slide-content">
-    <div class="slide-kicker blue">Structure</div>
-    <div class="slide-title">How <span class="blue">Phrasal Verbs</span> Work</div>
-    <div class="slide-sub">The meaning of a phrasal verb is <b>different</b> from the literal meaning of its parts. There are two types you need to know.</div>
+    <div class="slide-kicker blue">Key Concept</div>
+    <div class="slide-title">What Is a <span class="blue">Phrasal Verb</span>?</div>
+    <div class="slide-sub">The meaning of a phrasal verb is <b>different</b> from the literal meaning of its individual words. You cannot always guess the meaning — you need to learn each one.</div>
     <div class="grid2" style="margin-top:.4rem">
-      <div style="display:flex;flex-direction:column;gap:.4rem">
-        <div class="card blue">
-          <div class="c-label blue">✂️ Separable</div>
-          <div class="c-def">The object can go <b>between</b> the verb and the particle — or after it.</div>
-          <div class="formula" style="margin-top:.3rem;font-size:.87rem">
-            <span class="kw">Switch off</span> the laptop. &nbsp;✅<br>
-            Switch <span class="kw">the laptop</span> off. &nbsp;✅<br>
-            Switch <span class="kw">it</span> off. &nbsp;✅ &nbsp;(pronoun → always middle)
-          </div>
-          <div style="font-size:.8rem;color:var(--muted);margin-top:.2rem">⚠️ With a pronoun, it <b>must</b> go in the middle: <br><em>"Switch <b>it</b> off."</em> ✅ &nbsp; <em>"Switch off <b>it</b>."</em> ❌</div>
-        </div>
-        <div class="card gold">
-          <div class="c-label gold">🔒 Inseparable</div>
-          <div class="c-def">The object always comes <b>after</b> the full phrasal verb. You cannot split it.</div>
-          <div class="formula gold" style="margin-top:.3rem;font-size:.87rem">
-            <span class="kw gold">Meet up with</span> your friends. &nbsp;✅<br>
-            ~~Meet your friends up with.~~ &nbsp;❌
-          </div>
-          <div style="font-size:.8rem;color:var(--muted);margin-top:.2rem">Multi-word phrasal verbs (3 words) are <b>always inseparable</b>.</div>
-        </div>
-      </div>
-      <div style="display:flex;flex-direction:column;gap:.4rem">
+      <div style="display:flex;flex-direction:column;gap:.45rem">
         <div class="card teal">
-          <div class="c-label teal">🔍 Meaning is unpredictable</div>
-          <div class="c-def">You often cannot guess the meaning from the individual words.</div>
-          <div style="display:flex;flex-direction:column;gap:.25rem;margin-top:.35rem">
-            <div style="background:#fff;border-left:3px solid var(--teal);border-radius:0 5px 5px 0;padding:.3rem .7rem;font-size:.86rem;line-height:1.5">
-              <b>Work</b> = treballar &nbsp;+&nbsp; <b>out</b> = fora &nbsp;≠&nbsp; <b style="color:var(--teal)">work out</b> = fer exercici / calcular
-            </div>
-            <div style="background:#fff;border-left:3px solid var(--teal);border-radius:0 5px 5px 0;padding:.3rem .7rem;font-size:.86rem;line-height:1.5">
-              <b>Take</b> = agafar &nbsp;+&nbsp; <b>up</b> = amunt &nbsp;≠&nbsp; <b style="color:var(--teal)">take up</b> = començar una activitat
-            </div>
-            <div style="background:#fff;border-left:3px solid var(--teal);border-radius:0 5px 5px 0;padding:.3rem .7rem;font-size:.86rem;line-height:1.5">
-              <b>Log</b> = registre &nbsp;+&nbsp; <b>off</b> = fora &nbsp;≠&nbsp; <b style="color:var(--teal)">log off</b> = tancar sessió
-            </div>
+          <div class="c-label teal">Structure</div>
+          <div style="font-size:.88rem;color:var(--text);line-height:1.6;margin-top:.2rem">
+            A phrasal verb is formed by:<br>
+            <strong>Verb + particle (adverb or preposition)</strong><br>
+            Sometimes: <strong>Verb + particle + preposition</strong> (3 words)
+          </div>
+          <div class="formula teal" style="margin-top:.3rem;font-size:.87rem">
+            <span class="kw">work</span> (verb) + <span class="kw">out</span> (adverb) = <span class="kw">work out</span><br>
+            <span class="kw">meet</span> (verb) + <span class="kw">up with</span> (particle + prep) = <span class="kw">meet up with</span>
           </div>
         </div>
-        <div class="card green">
-          <div class="c-label green">📋 In this unit — 10 phrasal verbs</div>
+        <div class="card blue">
+          <div class="c-label blue">In this unit — 10 phrasal verbs</div>
           <div style="display:flex;flex-wrap:wrap;gap:.3rem;margin-top:.3rem">
             <span class="tag teal">log off</span><span class="tag teal">sign out</span><span class="tag teal">switch off/on</span><span class="tag teal">print out</span>
             <span class="tag purple">hang out</span><span class="tag purple">meet up with</span><span class="tag purple">go away</span><span class="tag purple">chill out</span>
             <span class="tag green">take up</span><span class="tag green">work out</span>
+          </div>
+        </div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:.45rem">
+        <div class="card teal" style="flex:1">
+          <div class="c-label teal">Meaning is not predictable</div>
+          <div style="font-size:.84rem;color:var(--muted);margin-top:.15rem;line-height:1.45">You often cannot guess the meaning from the individual words. Each phrasal verb must be learned as a whole unit.</div>
+          <div style="display:flex;flex-direction:column;gap:.25rem;margin-top:.35rem">
+            <div style="background:#fff;border-left:3px solid var(--teal);border-radius:0 5px 5px 0;padding:.3rem .7rem;font-size:.86rem;line-height:1.5">
+              <b>work</b> = treballar &nbsp;+&nbsp; <b>out</b> = fora &nbsp;→&nbsp; <b style="color:var(--teal)">work out</b> = fer exercici / calcular
+            </div>
+            <div style="background:#fff;border-left:3px solid var(--teal);border-radius:0 5px 5px 0;padding:.3rem .7rem;font-size:.86rem;line-height:1.5">
+              <b>take</b> = agafar &nbsp;+&nbsp; <b>up</b> = amunt &nbsp;→&nbsp; <b style="color:var(--teal)">take up</b> = començar una activitat
+            </div>
+            <div style="background:#fff;border-left:3px solid var(--teal);border-radius:0 5px 5px 0;padding:.3rem .7rem;font-size:.86rem;line-height:1.5">
+              <b>log</b> = registre &nbsp;+&nbsp; <b>off</b> = fora &nbsp;→&nbsp; <b style="color:var(--teal)">log off</b> = tancar sessió
+            </div>
           </div>
         </div>
       </div>
@@ -310,53 +306,58 @@ body{color:var(--text);font-family:'DM Sans',sans-serif;font-size:15px}
   </div>
 </div>
 
-<!-- ══ SLIDE 3 — TECH ══ -->
+<!-- ══ SLIDE 3 — SEPARABLE / INSEPARABLE ══ -->
 <div class="slide" data-slide="3">
   <div class="topbar">
-    <div class="tb-logo">💻 Unit 7 — Technology</div>
+    <div class="tb-logo">Unit 7 — Technology</div>
     <div class="tb-center">Phrasal Verbs · 4t ESO</div>
     <div class="tb-right">
-      <div class="tb-slide-name">Tech & Digital</div>
-      <div class="tb-counter"><span>3</span> / 7</div>
+      <div class="tb-slide-name">Two Types</div>
+      <div class="tb-counter"><span>3</span> / 8</div>
     </div>
   </div>
   <div class="slide-content">
-    <div class="slide-kicker teal">Technology</div>
-    <div class="slide-title">💻 <span class="teal">Tech &amp; Digital</span> Phrasal Verbs</div>
-    <div class="slide-sub">These four phrasal verbs are all about <b>using technology</b> and devices in daily life.</div>
-    <div class="grid4" style="margin-top:.4rem">
-      <div class="card teal">
-        <div class="c-label teal">Separable ✂️</div>
-        <div class="c-pv"><span class="pv-hl teal">Log</span> off</div>
-        <div class="c-def">To end a session on a computer, app or website</div>
-        <div class="c-ex">"Don't forget to <b>log off</b> before you leave the library computer."</div>
-        <div class="c-ex">"I always <b>log off</b> my school account after class."</div>
+    <div class="slide-kicker blue">Grammar</div>
+    <div class="slide-title">Two <span class="blue">Types</span> You Need to Know</div>
+    <div class="slide-sub">All phrasal verbs are either <b>separable</b> or <b>inseparable</b>. This tells you where to place the object.</div>
+    <div class="grid2" style="margin-top:.4rem">
+      <!-- SEPARABLE -->
+      <div style="display:flex;flex-direction:column;gap:.4rem">
+        <div class="card blue">
+          <div class="c-label blue">Type 1 — Separable</div>
+          <div style="font-size:.84rem;color:var(--muted);line-height:1.5;margin-top:.2rem">The object can go <b>between</b> the verb and the particle, or <b>after</b> the full phrasal verb. Both are correct.</div>
+          <div class="formula" style="margin-top:.3rem;font-size:.87rem">
+            <span class="kw">Switch off</span> the laptop. &nbsp;✅<br>
+            Switch <span class="kw">the laptop</span> off. &nbsp;✅
+          </div>
+          <div style="background:#fff;border:1px solid var(--border);border-radius:6px;padding:.4rem .7rem;margin-top:.3rem">
+            <div style="font-size:.75rem;font-weight:700;color:var(--err);text-transform:uppercase;letter-spacing:.08em;margin-bottom:.2rem">Pronoun rule — important!</div>
+            <div style="font-size:.84rem;color:var(--text);line-height:1.5">With a pronoun (<b>it, them, her, him</b>), it <b>must</b> go between the verb and the particle. Never after.</div>
+            <div style="display:flex;flex-direction:column;gap:.15rem;margin-top:.25rem">
+              <div style="font-size:.86rem;color:#15803d">Switch <b>it</b> off. &nbsp;✅</div>
+              <div style="font-size:.86rem;color:var(--err)">Switch off <b>it</b>. &nbsp;❌</div>
+            </div>
+          </div>
+          <div style="font-size:.8rem;color:var(--muted);margin-top:.15rem">In this unit: <span class="tag blue" style="font-size:.64rem">switch off/on</span> <span class="tag blue" style="font-size:.64rem">print out</span> <span class="tag blue" style="font-size:.64rem">take up</span> <span class="tag blue" style="font-size:.64rem">log off</span> <span class="tag blue" style="font-size:.64rem">sign out</span></div>
+        </div>
       </div>
-      <div class="card teal">
-        <div class="c-label teal">Separable ✂️</div>
-        <div class="c-pv"><span class="pv-hl teal">Sign</span> out</div>
-        <div class="c-def">To log out of an account or platform (same idea as log off)</div>
-        <div class="c-ex">"I <b>signed out</b> of Instagram because I needed to focus."</div>
-        <div class="c-ex">"She <b>signed out</b> of her email on the shared device."</div>
+      <!-- INSEPARABLE -->
+      <div style="display:flex;flex-direction:column;gap:.4rem">
+        <div class="card gold">
+          <div class="c-label gold">Type 2 — Inseparable</div>
+          <div style="font-size:.84rem;color:var(--muted);line-height:1.5;margin-top:.2rem">The object always comes <b>after</b> the complete phrasal verb. You cannot place anything between the verb and the particle.</div>
+          <div class="formula gold" style="margin-top:.3rem;font-size:.87rem">
+            <span class="kw">Meet up with</span> your friends. &nbsp;✅<br>
+            Meet your friends up with. &nbsp;❌
+          </div>
+          <div style="background:#fff;border:1px solid var(--border);border-radius:6px;padding:.4rem .7rem;margin-top:.3rem">
+            <div style="font-size:.75rem;font-weight:700;color:var(--gold);text-transform:uppercase;letter-spacing:.08em;margin-bottom:.2rem">3-word phrasal verbs</div>
+            <div style="font-size:.84rem;color:var(--text);line-height:1.5">Phrasal verbs with three words (verb + adverb + preposition) are <b>always inseparable</b>.</div>
+            <div style="font-size:.86rem;color:#15803d;margin-top:.25rem">I <b>met up with</b> my friends. &nbsp;✅</div>
+          </div>
+          <div style="font-size:.8rem;color:var(--muted);margin-top:.15rem">In this unit: <span class="tag gold" style="font-size:.64rem">hang out</span> <span class="tag gold" style="font-size:.64rem">meet up with</span> <span class="tag gold" style="font-size:.64rem">go away</span> <span class="tag gold" style="font-size:.64rem">chill out</span> <span class="tag gold" style="font-size:.64rem">work out</span></div>
+        </div>
       </div>
-      <div class="card blue">
-        <div class="c-label blue">Separable ✂️</div>
-        <div class="c-pv"><span class="pv-hl">Switch</span> off / on</div>
-        <div class="c-def">To turn a device off / on completely</div>
-        <div class="c-ex">"<b>Switch off</b> your phone during the exam." &nbsp;→&nbsp; "<b>Switch it off</b>."</div>
-        <div class="c-ex">"Can you <b>switch on</b> the projector? <b>Switch it on</b>, please."</div>
-      </div>
-      <div class="card blue">
-        <div class="c-label blue">Separable ✂️</div>
-        <div class="c-pv"><span class="pv-hl">Print</span> out</div>
-        <div class="c-def">To produce a paper copy of a digital document</div>
-        <div class="c-ex">"<b>Print out</b> the worksheet before tomorrow's lesson."</div>
-        <div class="c-ex">"I <b>printed out</b> the tickets for the concert — I <b>printed them out</b> this morning."</div>
-      </div>
-    </div>
-    <div style="background:var(--s2);border:1px solid var(--border);border-radius:var(--r);padding:.5rem .95rem;margin-top:.4rem">
-      <div style="font-size:.68rem;text-transform:uppercase;letter-spacing:.1em;font-weight:700;color:var(--teal);margin-bottom:.3rem">💡 Log off vs Sign out</div>
-      <div style="font-size:.88rem;color:var(--text)"><b>Log off</b> is more common with computers &amp; operating systems. <b>Sign out</b> is more common with apps, websites &amp; Google accounts. In practice, they mean the same thing — both are correct.</div>
     </div>
   </div>
   <div class="navbar">
@@ -366,53 +367,53 @@ body{color:var(--text);font-family:'DM Sans',sans-serif;font-size:15px}
   </div>
 </div>
 
-<!-- ══ SLIDE 4 — SOCIAL ══ -->
+<!-- ══ SLIDE 4 — TECH ══ -->
 <div class="slide" data-slide="4">
   <div class="topbar">
-    <div class="tb-logo">💻 Unit 7 — Technology</div>
+    <div class="tb-logo">Unit 7 — Technology</div>
     <div class="tb-center">Phrasal Verbs · 4t ESO</div>
     <div class="tb-right">
-      <div class="tb-slide-name">Social & Leisure</div>
-      <div class="tb-counter"><span>4</span> / 7</div>
+      <div class="tb-slide-name">Tech &amp; Digital</div>
+      <div class="tb-counter"><span>4</span> / 8</div>
     </div>
   </div>
   <div class="slide-content">
-    <div class="slide-kicker purple">Social Life</div>
-    <div class="slide-title">🤝 <span class="purple">Social &amp; Leisure</span> Phrasal Verbs</div>
-    <div class="slide-sub">These phrasal verbs describe <b>spending time with people</b> and <b>relaxing</b> — very common in everyday teen conversation.</div>
+    <div class="slide-kicker teal">Technology</div>
+    <div class="slide-title"><span class="teal">Tech &amp; Digital</span> Phrasal Verbs</div>
+    <div class="slide-sub">These four phrasal verbs are all about <b>using technology</b> and devices in daily life. All four are <b>separable</b>.</div>
     <div class="grid4" style="margin-top:.4rem">
-      <div class="card purple">
-        <div class="c-label purple">Inseparable 🔒</div>
-        <div class="c-pv"><span class="pv-hl purple">Hang</span> out</div>
-        <div class="c-def">To spend time relaxing with friends, with no specific plan</div>
-        <div class="c-ex">"We're just <b>hanging out</b> at the park after school."</div>
-        <div class="c-ex">"Do you want to <b>hang out</b> this weekend?"</div>
+      <div class="card teal">
+        <div class="c-label teal">Separable</div>
+        <div class="c-pv"><span class="pv-hl teal">Log</span> off</div>
+        <div class="c-def">To end a session on a computer, app or website</div>
+        <div class="c-ex">"Don't forget to <b>log off</b> before you leave the library computer."</div>
+        <div class="c-ex">"I always <b>log off</b> my school account after class."</div>
       </div>
-      <div class="card purple">
-        <div class="c-label purple">Inseparable 🔒</div>
-        <div class="c-pv"><span class="pv-hl purple">Meet</span> up with</div>
-        <div class="c-def">To arrange to see someone at a specific time and place</div>
-        <div class="c-ex">"I'm going to <b>meet up with</b> my friends at the shopping centre."</div>
-        <div class="c-ex">"We <b>met up with</b> them at 5 o'clock near the station."</div>
+      <div class="card teal">
+        <div class="c-label teal">Separable</div>
+        <div class="c-pv"><span class="pv-hl teal">Sign</span> out</div>
+        <div class="c-def">To log out of an account or platform — same meaning as log off</div>
+        <div class="c-ex">"I <b>signed out</b> of Instagram because I needed to focus."</div>
+        <div class="c-ex">"She <b>signed out</b> of her email on the shared device."</div>
       </div>
-      <div class="card gold">
-        <div class="c-label gold">Inseparable 🔒</div>
-        <div class="c-pv"><span class="pv-hl gold">Go</span> away</div>
-        <div class="c-def">To travel somewhere and leave your usual place, or to disappear</div>
-        <div class="c-ex">"We're <b>going away</b> for the weekend — my parents booked a hotel."</div>
-        <div class="c-ex">"I wish this headache would just <b>go away</b>!"</div>
+      <div class="card blue">
+        <div class="c-label blue">Separable</div>
+        <div class="c-pv"><span class="pv-hl">Switch</span> off / on</div>
+        <div class="c-def">To turn a device off / on completely</div>
+        <div class="c-ex">"<b>Switch off</b> your phone during the exam." → "<b>Switch it off</b>."</div>
+        <div class="c-ex">"Can you <b>switch on</b> the projector? <b>Switch it on</b>, please."</div>
       </div>
-      <div class="card gold">
-        <div class="c-label gold">Inseparable 🔒</div>
-        <div class="c-pv"><span class="pv-hl gold">Chill</span> out</div>
-        <div class="c-def">To relax completely and do nothing stressful; to calm down</div>
-        <div class="c-ex">"After the exam I just want to <b>chill out</b> at home and watch Netflix."</div>
-        <div class="c-ex">"<b>Chill out!</b> It's not a big deal."</div>
+      <div class="card blue">
+        <div class="c-label blue">Separable</div>
+        <div class="c-pv"><span class="pv-hl">Print</span> out</div>
+        <div class="c-def">To produce a paper copy of a digital document</div>
+        <div class="c-ex">"<b>Print out</b> the worksheet before tomorrow's lesson."</div>
+        <div class="c-ex">"I <b>printed</b> the tickets <b>out</b> this morning." ✅</div>
       </div>
     </div>
     <div style="background:var(--s2);border:1px solid var(--border);border-radius:var(--r);padding:.5rem .95rem;margin-top:.4rem">
-      <div style="font-size:.68rem;text-transform:uppercase;letter-spacing:.1em;font-weight:700;color:var(--purple);margin-bottom:.3rem">💡 Hang out vs Meet up with</div>
-      <div style="font-size:.88rem;color:var(--text)"><b>Hang out</b> = informal, no fixed plan, just being together. &nbsp;<b>Meet up with</b> = arranged meeting at a specific time/place. <em>"We <b>met up with</b> them at 6 and then just <b>hung out</b> all evening."</em></div>
+      <div style="font-size:.68rem;text-transform:uppercase;letter-spacing:.1em;font-weight:700;color:var(--teal);margin-bottom:.3rem">Log off vs Sign out</div>
+      <div style="font-size:.88rem;color:var(--text)"><b>Log off</b> is more common with computers and operating systems. <b>Sign out</b> is more common with apps, websites and Google accounts. In practice, they mean the same thing — both are correct.</div>
     </div>
   </div>
   <div class="navbar">
@@ -422,25 +423,81 @@ body{color:var(--text);font-family:'DM Sans',sans-serif;font-size:15px}
   </div>
 </div>
 
-<!-- ══ SLIDE 5 — LIFESTYLE ══ -->
+<!-- ══ SLIDE 5 — SOCIAL ══ -->
 <div class="slide" data-slide="5">
   <div class="topbar">
-    <div class="tb-logo">💻 Unit 7 — Technology</div>
+    <div class="tb-logo">Unit 7 — Technology</div>
     <div class="tb-center">Phrasal Verbs · 4t ESO</div>
     <div class="tb-right">
-      <div class="tb-slide-name">Health & Hobbies</div>
-      <div class="tb-counter"><span>5</span> / 7</div>
+      <div class="tb-slide-name">Social &amp; Leisure</div>
+      <div class="tb-counter"><span>5</span> / 8</div>
+    </div>
+  </div>
+  <div class="slide-content">
+    <div class="slide-kicker purple">Social Life</div>
+    <div class="slide-title"><span class="purple">Social &amp; Leisure</span> Phrasal Verbs</div>
+    <div class="slide-sub">These phrasal verbs describe <b>spending time with people</b> and <b>relaxing</b> — very common in everyday conversation. All four are <b>inseparable</b>.</div>
+    <div class="grid4" style="margin-top:.4rem">
+      <div class="card purple">
+        <div class="c-label purple">Inseparable</div>
+        <div class="c-pv"><span class="pv-hl purple">Hang</span> out</div>
+        <div class="c-def">To spend time relaxing with friends, with no specific plan</div>
+        <div class="c-ex">"We're just <b>hanging out</b> at the park after school."</div>
+        <div class="c-ex">"Do you want to <b>hang out</b> this weekend?"</div>
+      </div>
+      <div class="card purple">
+        <div class="c-label purple">Inseparable (3 words)</div>
+        <div class="c-pv"><span class="pv-hl purple">Meet</span> up with</div>
+        <div class="c-def">To arrange to see someone at a specific time and place</div>
+        <div class="c-ex">"I'm going to <b>meet up with</b> my friends at the shopping centre."</div>
+        <div class="c-ex">"We <b>met up with</b> them at 5 o'clock near the station."</div>
+      </div>
+      <div class="card gold">
+        <div class="c-label gold">Inseparable</div>
+        <div class="c-pv"><span class="pv-hl gold">Go</span> away</div>
+        <div class="c-def">To travel somewhere and leave your usual place, or to disappear</div>
+        <div class="c-ex">"We're <b>going away</b> for the weekend — my parents booked a hotel."</div>
+        <div class="c-ex">"I wish this headache would just <b>go away</b>!"</div>
+      </div>
+      <div class="card gold">
+        <div class="c-label gold">Inseparable</div>
+        <div class="c-pv"><span class="pv-hl gold">Chill</span> out</div>
+        <div class="c-def">To relax completely and do nothing stressful; to calm down</div>
+        <div class="c-ex">"After the exam I just want to <b>chill out</b> at home and watch Netflix."</div>
+        <div class="c-ex">"<b>Chill out!</b> It's not a big deal."</div>
+      </div>
+    </div>
+    <div style="background:var(--s2);border:1px solid var(--border);border-radius:var(--r);padding:.5rem .95rem;margin-top:.4rem">
+      <div style="font-size:.68rem;text-transform:uppercase;letter-spacing:.1em;font-weight:700;color:var(--purple);margin-bottom:.3rem">Hang out vs Meet up with</div>
+      <div style="font-size:.88rem;color:var(--text)"><b>Hang out</b> = informal, no fixed plan, just being together. &nbsp;<b>Meet up with</b> = arranged meeting at a specific time and place. <em>"We <b>met up with</b> them at 6 and then just <b>hung out</b> all evening."</em></div>
+    </div>
+  </div>
+  <div class="navbar">
+    <button class="btn-nav" onclick="prev()">← Back</button>
+    <div class="nav-dots" id="nd5"></div>
+    <button class="btn-nav-primary" onclick="next()">Next →</button>
+  </div>
+</div>
+
+<!-- ══ SLIDE 6 — LIFESTYLE ══ -->
+<div class="slide" data-slide="6">
+  <div class="topbar">
+    <div class="tb-logo">Unit 7 — Technology</div>
+    <div class="tb-center">Phrasal Verbs · 4t ESO</div>
+    <div class="tb-right">
+      <div class="tb-slide-name">Health &amp; Hobbies</div>
+      <div class="tb-counter"><span>6</span> / 8</div>
     </div>
   </div>
   <div class="slide-content">
     <div class="slide-kicker green">Lifestyle</div>
-    <div class="slide-title">💪 <span class="green">Health &amp; Hobbies</span> Phrasal Verbs</div>
+    <div class="slide-title"><span class="green">Health &amp; Hobbies</span> Phrasal Verbs</div>
     <div class="slide-sub">Two very useful phrasal verbs about <b>starting new activities</b> and <b>keeping fit</b>.</div>
     <div class="grid2" style="margin-top:.5rem">
       <div class="card green" style="gap:.4rem">
         <div style="display:flex;align-items:center;gap:.6rem">
           <div>
-            <div class="c-label green">Separable ✂️</div>
+            <div class="c-label green">Separable</div>
             <div class="c-pv" style="font-size:1.5rem"><span class="pv-hl green">Take</span> up</div>
           </div>
           <span class="tag green" style="margin-left:auto;font-size:.72rem">start a new hobby / activity</span>
@@ -457,14 +514,14 @@ body{color:var(--text);font-family:'DM Sans',sans-serif;font-size:15px}
             "Have you ever thought about <b>taking up</b> a new sport?"
           </div>
           <div style="background:var(--s2);border-left:3px solid var(--border2);border-radius:0 5px 5px 0;padding:.3rem .7rem;font-size:.82rem;color:var(--muted)">
-            ✂️ Separable: "take <b>it</b> up" ✅ &nbsp; but usually not split in practice.
+            Separable: "take <b>it</b> up" ✅ — but always needs an object. You cannot say "take up" alone.
           </div>
         </div>
       </div>
       <div class="card blue" style="gap:.4rem">
         <div style="display:flex;align-items:center;gap:.6rem">
           <div>
-            <div class="c-label blue">Inseparable 🔒</div>
+            <div class="c-label blue">Inseparable</div>
             <div class="c-pv" style="font-size:1.5rem"><span class="pv-hl">Work</span> out</div>
           </div>
           <span class="tag blue" style="margin-left:auto;font-size:.72rem">exercise / calculate / solve</span>
@@ -472,16 +529,16 @@ body{color:var(--text);font-family:'DM Sans',sans-serif;font-size:15px}
         <div class="c-def">To exercise (gym, running…) OR to find a solution / calculate something</div>
         <div style="display:flex;flex-direction:column;gap:.22rem;margin-top:.15rem">
           <div style="background:#fff;border-left:3px solid var(--blue);border-radius:0 5px 5px 0;padding:.3rem .7rem;font-size:.88rem;line-height:1.5">
-            💪 "I <b>work out</b> three times a week at the gym."
+            "I <b>work out</b> three times a week at the gym."
           </div>
           <div style="background:#fff;border-left:3px solid var(--blue);border-radius:0 5px 5px 0;padding:.3rem .7rem;font-size:.88rem;line-height:1.5">
-            🧮 "I can't <b>work out</b> how to fix this bug in my code."
+            "I can't <b>work out</b> how to fix this bug in my code."
           </div>
           <div style="background:#fff;border-left:3px solid var(--blue);border-radius:0 5px 5px 0;padding:.3rem .7rem;font-size:.88rem;line-height:1.5">
             "We need to <b>work out</b> a solution before the deadline."
           </div>
           <div style="background:var(--s2);border-left:3px solid var(--border2);border-radius:0 5px 5px 0;padding:.3rem .7rem;font-size:.82rem;color:var(--muted)">
-            ⚠️ Two very different meanings — context makes it clear!
+            Two very different meanings — context makes it clear!
           </div>
         </div>
       </div>
@@ -489,19 +546,19 @@ body{color:var(--text);font-family:'DM Sans',sans-serif;font-size:15px}
   </div>
   <div class="navbar">
     <button class="btn-nav" onclick="prev()">← Back</button>
-    <div class="nav-dots" id="nd5"></div>
+    <div class="nav-dots" id="nd6"></div>
     <button class="btn-nav-primary" onclick="next()">Next →</button>
   </div>
 </div>
 
-<!-- ══ SLIDE 6 — COMMON ERRORS ══ -->
-<div class="slide" id="s6" data-slide="6">
+<!-- ══ SLIDE 7 — COMMON ERRORS ══ -->
+<div class="slide" id="s7" data-slide="7">
   <div class="topbar">
-    <div class="tb-logo">💻 Unit 7 — Technology</div>
+    <div class="tb-logo">Unit 7 — Technology</div>
     <div class="tb-center">Phrasal Verbs · 4t ESO</div>
     <div class="tb-right">
       <div class="tb-slide-name">Common Errors</div>
-      <div class="tb-counter"><span>6</span> / 7</div>
+      <div class="tb-counter"><span>7</span> / 8</div>
     </div>
   </div>
   <div class="slide-content">
@@ -535,7 +592,7 @@ body{color:var(--text);font-family:'DM Sans',sans-serif;font-size:15px}
         <div class="ex-err">❌ "I logged off the computer." (meaning: turned it off completely)</div>
         <div class="err-reveal" id="rev3" style="display:none">
           <div class="ex-ok">✅ "I <b>switched off</b> the computer." (to turn off completely)</div>
-          <div class="ex-ok">✅ "I <b>logged off</b> my account." (to end a session/account)</div>
+          <div class="ex-ok">✅ "I <b>logged off</b> my account." (to end a session)</div>
           <div class="err-explain"><b>Log off / sign out</b> = end a user session. <b>Switch off</b> = cut the power completely.</div>
         </div>
         <button class="btn-reveal" onclick="reveal('rev3',this)">Show correction ▾</button>
@@ -547,7 +604,7 @@ body{color:var(--text);font-family:'DM Sans',sans-serif;font-size:15px}
         <div class="err-reveal" id="rev4" style="display:none">
           <div class="ex-ok">✅ "I want to <b>take up</b> skateboarding."</div>
           <div class="ex-ok">✅ "I want to <b>take up</b> a new hobby."</div>
-          <div class="err-explain"><b>Take up</b> always needs an object — the activity you are starting. You can't use it without one.</div>
+          <div class="err-explain"><b>Take up</b> always needs an object — the activity you are starting. You cannot use it without one.</div>
         </div>
         <button class="btn-reveal" onclick="reveal('rev4',this)">Show correction ▾</button>
       </div>
@@ -555,19 +612,19 @@ body{color:var(--text);font-family:'DM Sans',sans-serif;font-size:15px}
   </div>
   <div class="navbar">
     <button class="btn-nav" onclick="prev()">← Back</button>
-    <div class="nav-dots" id="nd6"></div>
+    <div class="nav-dots" id="nd7"></div>
     <button class="btn-nav-primary" onclick="next()">Next →</button>
   </div>
 </div>
 
-<!-- ══ SLIDE 7 — QUIZ ══ -->
-<div class="slide" data-slide="7">
+<!-- ══ SLIDE 8 — QUIZ ══ -->
+<div class="slide" data-slide="8">
   <div class="topbar">
-    <div class="tb-logo">💻 Unit 7 — Technology</div>
+    <div class="tb-logo">Unit 7 — Technology</div>
     <div class="tb-center">Phrasal Verbs · 4t ESO</div>
     <div class="tb-right">
       <div class="tb-slide-name">Quiz</div>
-      <div class="tb-counter"><span>7</span> / 7</div>
+      <div class="tb-counter"><span>8</span> / 8</div>
     </div>
   </div>
   <div class="slide-content">
@@ -580,23 +637,23 @@ body{color:var(--text);font-family:'DM Sans',sans-serif;font-size:15px}
       </div>
       <div id="qcard-wrap"></div>
       <div class="quiz-result" id="qresult">
-        <div class="qr-icon" id="qr-icon">🏆</div>
+        <div class="qr-icon" id="qr-icon"></div>
         <div class="qr-title" id="qr-title">Quiz Complete!</div>
         <div class="qr-score" id="qr-score"></div>
-        <button class="btn-full-retry" onclick="initQuiz()">🔄 Try Again</button>
+        <button class="btn-full-retry" onclick="initQuiz()">Try Again</button>
       </div>
     </div>
   </div>
   <div class="navbar">
     <button class="btn-nav" onclick="prev()">← Back</button>
-    <div class="nav-dots" id="nd7"></div>
+    <div class="nav-dots" id="nd8"></div>
     <button class="btn-nav" disabled>— End —</button>
   </div>
 </div>
 
 </div><!-- /deck -->
 <script>
-const TOTAL=7; let cur=1;
+const TOTAL=8; let cur=1;
 function goTo(n){
   document.querySelectorAll('.slide').forEach(s=>{
     const sn=+s.dataset.slide;
@@ -605,12 +662,12 @@ function goTo(n){
     else if(sn<n) s.classList.add('exit-left');
   });
   cur=n; dots();
-  if(n===6){
+  if(n===7){
     ['rev1','rev2','rev3','rev4'].forEach(id=>{
       const el=document.getElementById(id);
       if(el) el.style.display='none';
     });
-    document.querySelectorAll('#s6 .btn-reveal').forEach(btn=>{
+    document.querySelectorAll('#s7 .btn-reveal').forEach(btn=>{
       btn.textContent='Show correction ▾';
       btn.classList.remove('done');
       btn.disabled=false;
@@ -636,7 +693,7 @@ function reveal(id,btn){
   const el=document.getElementById(id);
   if(!el)return;
   el.style.display='block';
-  btn.textContent='✓ Correction shown';
+  btn.textContent='Correction shown';
   btn.classList.add('done');
   btn.disabled=true;
 }
@@ -703,7 +760,7 @@ function render(){
       <div class="qfb" id="qfb"></div>
       <div class="quiz-nav-btns">
         <button class="btn-qnext" id="qnxt" onclick="nextQ()">${qi<QS.length-1?'Next →':'See results →'}</button>
-        <button class="btn-retry-q" id="qret" onclick="retryQ()">↩ Try again</button>
+        <button class="btn-retry-q" id="qret" onclick="retryQ()">Try again</button>
       </div>
     </div>
   </div>`;
@@ -719,7 +776,7 @@ function choose(i){
   });
   const fb=document.getElementById('qfb');
   fb.className='qfb show '+(ok?'good':'bad');
-  fb.innerHTML=(ok?'✅ <b>Correct!</b> ':'❌ <b>Not quite.</b> ')+q.fb;
+  fb.innerHTML=(ok?'Correct! ':'Not quite. ')+q.fb;
   document.getElementById('qnxt').classList.add('show');
   if(!ok) document.getElementById('qret').classList.add('show');
   renderProg();
@@ -729,7 +786,7 @@ function retryQ(){answered[qi]=false;render();}
 function showResult(){
   document.getElementById('qcard-wrap').style.display='none';
   const p=Math.round(sc/QS.length*100);
-  const [icon,title]=p===100?['🏆','Phrasal Verb Master!']:p>=78?['⭐','Expert!']:p>=55?['🎯','Getting There!']:['📖','Keep Practising!'];
+  const [icon,title]=p===100?['','Phrasal Verb Master!']:p>=78?['','Expert!']:p>=55?['','Getting There!']:['','Keep Practising!'];
   document.getElementById('qr-icon').textContent=icon;
   document.getElementById('qr-title').textContent=title;
   document.getElementById('qr-score').innerHTML='You scored <b>'+sc+' out of '+QS.length+'</b> ('+p+'%)';
